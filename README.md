@@ -29,12 +29,13 @@ Step 7: Save and run the application.
  ```
 /*
 Program to develop personal information for student
-Developed by: R Hemapriya
-RegisterNumber:  212221230036
+Developed by: V A Jithendra
+RegisterNumber:  212221230043
 */
-
+```
 
 ## MainActivity.java:
+```
 
 package com.example.ex_6;
 
@@ -82,9 +83,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
+```
 
 ## activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -164,8 +166,9 @@ public class MainActivity extends AppCompatActivity {
         android:onClick="displayData"/>
 </RelativeLayout>
 
-
+```
 ## AndroidMainfest.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
